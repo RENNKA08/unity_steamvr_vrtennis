@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.vr_tennis.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\is0467hv\\vr_tennis\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "vr_tennis [Testing]"
+        }
+      }
+    }
+  ]
+}
