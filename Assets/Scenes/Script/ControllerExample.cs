@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Valve.VR;
+using UnityEngine.UI;
 
 public class ControllerExample : MonoBehaviour {
 
@@ -8,7 +9,7 @@ public class ControllerExample : MonoBehaviour {
     // Update is called once per frame
     private void Update () {
 
-        if (ControllerExample.p_default_GrabGrip.GetStateUp(SteamVR_Input_Sources.Any))
+        if (ControllerExample.p_default_GrabGrip.GetStateDown(SteamVR_Input_Sources.LeftHand))
         {
             Debug.Log("トリガーを浅く引いた");
         }
